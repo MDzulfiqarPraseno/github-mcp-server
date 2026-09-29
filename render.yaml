@@ -15,7 +15,7 @@ services:
     # Starter is the lowest always-on plan (~$7/month as of writing).
     # The free plan exists but web services sleep after inactivity, making
     # Claude.ai connections unreliable. Verify current pricing at render.com/pricing.
-    plan: starter
+    plan: free
 
     # Render checks this path periodically to confirm the service is alive.
     healthCheckPath: /.well-known/oauth-protected-resource
